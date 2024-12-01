@@ -43,3 +43,26 @@ img[alt='odin-logo'] {
     font-family: norsebold;
     font-size: 80px;
 }
+
+.right-section {
+    flex: auto;
+}
+
+.info {
+    padding: 40px;
+    box-sizing: border-box;
+    height: calc(20vh + 165.67px);
+    background-color: rgba(249,250,251,255);
+}
+
+.info-para {
+    margin: 0;
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.leading-info-para {
+    margin-top: 10vh;
+}
