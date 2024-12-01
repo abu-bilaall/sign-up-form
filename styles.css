@@ -46,13 +46,13 @@ img[alt='odin-logo'] {
 
 .right-section {
     flex: auto;
+    background-color: rgba(249,250,251,255);
 }
 
 .info {
     padding: 40px;
     box-sizing: border-box;
     height: calc(20vh + 165.67px);
-    background-color: rgba(249,250,251,255);
 }
 
 .info-para {
@@ -68,9 +68,16 @@ img[alt='odin-logo'] {
 }
 
 .form-section {
+    padding-top: 32px;
     padding-left: 40px;
+    background-color: white;
+    box-sizing: border-box;
 }
 
+h3 {
+    margin: 0;
+    margin-bottom: 16px;
+}
 .odin-form {
     width: 30vw;
 }
@@ -106,4 +113,32 @@ input[type="password"] {
     border-radius: 3px;
     width: 300px;
     height: 35px;
+}
+
+.create-login-acct {
+    background-color: rgba(249,250,251,255);
+    padding-top: 32px;
+    padding-left: 40px;
+}
+
+.create-login-acct > button {
+    border: 0;
+    border-radius: 5px;
+    width: 220px;
+    height: 50px;
+    color: white;
+    background-color: rgba(89,109,72,255);
+    
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.create-login-acct > p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(89,109,72,255);
 }
