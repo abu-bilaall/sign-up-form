@@ -66,3 +66,44 @@ img[alt='odin-logo'] {
 .leading-info-para {
     margin-top: 10vh;
 }
+
+.form-section {
+    padding-left: 40px;
+}
+
+.odin-form {
+    width: 30vw;
+}
+
+.odin-form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 32px;
+}
+
+label {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    
+    background-color: rgba(249,250,251,255);
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 300px;
+    height: 35px;
+}
