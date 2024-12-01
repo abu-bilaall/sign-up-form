@@ -8,6 +8,7 @@ body {
 }
 
 .left-section {
-    width: 10vw;
+    width: 30vw;
     background-image: url(./assets/images-and-icons/frond-leaves-halie-west-unsplash.jpg);
+    background-size: cover;
 }
