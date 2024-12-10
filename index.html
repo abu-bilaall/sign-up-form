@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./styles.css">
     <title>Sign Up Form</title>
 </head>
@@ -11,6 +12,10 @@
         <div class="logo-bg">
             <img src="./assets/images-and-icons/odin-logo.png" alt="odin-logo">
             <div class="odin">ODIN</div>
+        </div>
+
+        <div class="credits">
+            <div>Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank" rel="noreferrer">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank" rel="noreferrer">Unsplash</a></div>
         </div>
     </div>
 
@@ -27,7 +32,7 @@
 
         <div class="form-section">
             <h2>Let's do this!</h2>
-            <form action="#" method="post" class="odin-form">
+            <form action="https://httpbin.org/post" method="post" id="sign-up-form" class="odin-form">
                 <div class="full-name">
                     <div class="form-entries first-name">
                         <label for="first-name">FIRST NAME</label>
@@ -64,11 +69,13 @@
                     </div>
                 </div>
             </form>
+            <div class="pwd-warning"></div>
         </div>
 
         <div class="create-login-acct">
-            <button>Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <!-- form="sign-up-form" -->
+            <button type="submit" id="submit-btn">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
 </body>
